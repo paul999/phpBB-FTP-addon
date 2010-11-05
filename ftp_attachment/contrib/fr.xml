@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="./modx.prosilver.en.xsl"?>
+<!--For security purposes, please check: http
+://www.phpbb.com/mods/ for the latest version of this MOD. Although MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD. No support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+	<header>
+		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
+		<title lang="en">FTP addon for attachment function</title>
+		<description lang="en">This MOD adds FTP functions to save attachment at another server. </description>
+		<author-notes lang="en">this MOD will slowdown the posting and viewtopic page, when using attachments.</author-notes>
+		<author-group>
+			<author>
+				<realname>Paul Sohier</realname>
+				<email>paul@paulscripts.nl</email>
+				<username>Paul</username>
+				<homepage>www.paulscripts.nl</homepage>
+			</author>
+		</author-group>
+		<mod-version>1.0.2</mod-version>
+		<installation>
+			<level>intermediate</level>
+			<time>1200</time>
+			<target-version>3.0.7-PL1</target-version>
+		</installation>
+		<history>
+		</history>
+		<link-group>
+			<link type="parent" href="../install.xml" lang="en">Return to the main install file</link>
+			<link type="parent" href="../install.xml" lang="fr">Retournez au fichier d'installation principal</link>
+		</link-group>
+	</header>
+	<action-group>
+		<copy>
+			<file from="root/language/fr/mods/ftp_attach.php" to="language/fr/mods/ftp_attach.php" />
+		</copy>
+	</action-group>
+</mod>
