@@ -60,9 +60,9 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FTP_PASS'           => 'FTP password',
 	'ATTACHMENT_FTP_PASS_EXPLAIN'   => 'Old FTP password isnt displayed.
 		<strong>This password is currently saved plain text.
-			Use a account that only has access to the upload directory for attachments!!!</strong>',
+			Use an account that only has access to the upload directory for attachments!!!</strong>',
 	'ATTACHMENT_FTP_PATH'           => 'FTP path',  
-	'ATTACHMENT_FTP_PATH_EXPLAIN'   => 'Path to the upload directory. As said above, give only a account that can acsess the upload dir.',
+	'ATTACHMENT_FTP_PATH_EXPLAIN'   => 'Path to the upload directory. As said above, give only a account that can access the upload directory.',
 	
 	'FTP_ATTACHMENT_FTP'        => 'FTP',
 	'FTP_ATTACHMENT_FTP_FSOCK'  => 'FTP fsock',
