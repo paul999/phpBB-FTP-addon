@@ -88,11 +88,13 @@
 				<find><![CDATA[			@readfile($filename);
 		}
 
-		flush();]]></find>
-				<action type="after-add"><![CDATA[		if ($config['attachment_ftp'])
-		{
-			@unlink($filename);
-		}]]></action>
+		flush();
+	}]]></find>
+				<action type="after-add"><![CDATA[	if ($config['attachment_ftp'])
+	{
+		@unlink($filename);
+	}
+]></action>
 			</edit>
 		</open>
 		<open src="includes/acp/acp_attachments.php">
