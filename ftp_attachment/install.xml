@@ -16,13 +16,20 @@
 				<homepage>www.paulscripts.nl</homepage>
 			</author>
 		</author-group>
-		<mod-version>1.0.2</mod-version>
+		<mod-version>1.0.3</mod-version>
 		<installation>
 			<level>intermediate</level>
 			<time>1200</time>
-			<target-version>3.0.7-PL1</target-version>
+			<target-version>3.0.9</target-version>
 		</installation>
 		<history>
+		  <entry>
+		    <date>2011-11-10</date>
+		    <rev-version>1.0.3</rev-version>
+		    <changelog lang="en">
+		      <change>Bug fix: Delete really the file downloaded.</change>
+		    </changelog>
+		  </entry>
 		  <entry>
 		    <date>2010-11-03</date>
 		    <rev-version>1.0.2</rev-version>
